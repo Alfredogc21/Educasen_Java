@@ -1,0 +1,104 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".login">
+
+
+    <androidx.appcompat.widget.LinearLayoutCompat
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:padding="10dp"
+        android:orientation="vertical">
+
+        // Titulo visual del modulo
+        <TextView
+            android:text="@string/IniciarSesion"
+            android:fontFamily="@font/antonregular"
+            android:textSize="25sp"
+            android:textColor="@color/ColorBotonesInicial"
+            android:gravity="center"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+        </TextView>
+
+        // Lottie se llama la libreria de img
+        <com.airbnb.lottie.LottieAnimationView
+            android:layout_width="300dp"
+            android:layout_height="272dp"
+            app:lottie_autoPlay="true"
+            app:lottie_fileName="imgdelogin.json"
+            app:lottie_imageAssetsFolder="assets"
+            app:lottie_loop="true"
+            android:layout_gravity="center"
+            android:layout_marginTop="10dp"
+            />
+
+        // Input de correo
+        <com.google.android.material.textfield.TextInputLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp">
+            <EditText
+                android:id="@+id/CorreoEt"
+                android:hint="@string/CorreoEt"
+                android:inputType="textEmailAddress"
+                android:fontFamily="@font/robotoregular"
+                android:padding="20dp"
+                android:drawableStart="@drawable/icono_correo"
+                android:drawablePadding="10dp"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+            </EditText>
+        </com.google.android.material.textfield.TextInputLayout>
+
+        // Input de contraseña
+        <com.google.android.material.textfield.TextInputLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            app:passwordToggleEnabled="true"
+            app:hintEnabled="false">
+            <EditText
+                android:id="@+id/ContraseñaEt"
+                android:hint="@string/ContraseñaEt"
+                android:inputType="textPassword"
+                android:fontFamily="@font/robotoregular"
+                android:padding="20dp"
+                android:drawableStart="@drawable/icono_password"
+                android:drawablePadding="10dp"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+            </EditText>
+        </com.google.android.material.textfield.TextInputLayout>
+
+        <Button
+            android:id="@+id/RegistrarUsuario"
+            android:text="@string/Ingresar"
+            android:layout_marginTop="15dp"
+            android:fontFamily="@font/robotoregular"
+            android:textSize="18sp"
+            android:background="@color/ColorBotonesInicial"
+            android:textColor="@color/white"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+        </Button>
+
+        <TextView
+            android:id="@+id/TengoUnaCuentaTXT"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:layout_marginTop="15dp"
+            android:layout_marginBottom="30dp"
+            android:fontFamily="@font/robotoregular"
+            android:textSize="15sp"
+            android:layout_gravity="center"
+            android:textStyle="bold"
+            android:text="@string/NoTengoCuenta">
+        </TextView>
+
+    </androidx.appcompat.widget.LinearLayoutCompat>
+</ScrollView>

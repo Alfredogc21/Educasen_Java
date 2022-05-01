@@ -1,0 +1,24 @@
+<resources>
+    <string name="app_name">Educasen</string>
+
+    <!-- Textos para el activity main -->
+    <string name="botonLogin">Iniciar sesion</string>
+    <string name="botonRegistro">Registrarse</string>
+
+    <!-- Textos para el activity registro -->
+    <string name="crearCuentaTXT">Crear una cuenta</string>
+    <string name="NombreEt">Nombres</string>
+    <string name="CorreoEt">Correo electronico</string>
+    <string name="ContraseñaEt">Contraseña</string>
+    <string name="ConfirmarContraseñaEt">Confirmar contraseña</string>
+    <string name="RegistrarUsuario">Registrar</string>
+    <string name="TengoUnaCuentaTXT">Tengo una cuenta</string>
+
+    <!-- Textos para el activity login -->
+    <string name="Ingresar">Ingresar</string>
+    <string name="IniciarSesion">Iniciar Sesion</string>
+    <string name="NoTengoCuenta">No tengo una cuenta</string>
+
+
+
+</resources>
