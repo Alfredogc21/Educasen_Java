@@ -1,0 +1,47 @@
+{
+  "project_info": {
+    "project_number": "90630821972",
+    "project_id": "educasen-c576a",
+    "storage_bucket": "educasen-c576a.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:90630821972:android:a13493a837b057a1ae35c1",
+        "android_client_info": {
+          "package_name": "com.example.educasen"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "90630821972-osva235plq1k1g6f3trrifd00m9umsp9.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.educasen",
+            "certificate_hash": "85cad6bf0f1392574cd546d2b5e574c0c86817a6"
+          }
+        },
+        {
+          "client_id": "90630821972-fae9drobhqrmu397qg40pi2k06mu6kdj.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBm5qcSImX6tJAn07bvkfyhAURSVyNhe-o"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "90630821972-fae9drobhqrmu397qg40pi2k06mu6kdj.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
