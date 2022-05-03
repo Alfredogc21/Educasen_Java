@@ -9,8 +9,8 @@
     <string name="crearCuentaTXT">Crear una cuenta</string>
     <string name="NombreEt">Nombres</string>
     <string name="CorreoEt">Correo electronico</string>
-    <string name="ContraseñaEt">Contraseña</string>
-    <string name="ConfirmarContraseñaEt">Confirmar contraseña</string>
+    <string name="ContrasenaEt">Contraseña</string>
+    <string name="ConfirmarContrasenaEt">Confirmar contraseña</string>
     <string name="RegistrarUsuario">Registrar</string>
     <string name="TengoUnaCuentaTXT">Tengo una cuenta</string>
 
@@ -18,7 +18,6 @@
     <string name="Ingresar">Ingresar</string>
     <string name="IniciarSesion">Iniciar Sesion</string>
     <string name="NoTengoCuenta">No tengo una cuenta</string>
-
 
 
 </resources>

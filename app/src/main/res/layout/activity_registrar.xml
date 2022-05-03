@@ -80,8 +80,8 @@
             app:passwordToggleEnabled="true"
             app:hintEnabled="false">
             <EditText
-                android:id="@+id/ContraseñaEt"
-                android:hint="@string/ContraseñaEt"
+                android:id="@+id/ContrasenaEt"
+                android:hint="@string/ContrasenaEt"
                 android:inputType="textPassword"
                 android:fontFamily="@font/robotoregular"
                 android:padding="20dp"
@@ -100,8 +100,8 @@
             app:passwordToggleEnabled="true"
             app:hintEnabled="false">
             <EditText
-                android:id="@+id/ConfirmarContraseñaEt"
-                android:hint="@string/ConfirmarContraseñaEt"
+                android:id="@+id/ConfirmarContrasenaEt"
+                android:hint="@string/ConfirmarContrasenaEt"
                 android:inputType="textPassword"
                 android:fontFamily="@font/robotoregular"
                 android:padding="20dp"

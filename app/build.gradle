@@ -31,12 +31,14 @@ dependencies {
 
     implementation 'androidx.appcompat:appcompat:1.4.1'
     implementation 'com.google.android.material:material:1.5.0'
-    implementation 'com.google.firebase:firebase-analytics:17.2.2' //Libreria para saber cuantos usuarios esta usando nuestra app
     implementation 'androidx.constraintlayout:constraintlayout:2.1.3'
+    implementation 'com.airbnb.android:lottie:3.0.1' //dependencia para la img de carga
+    implementation 'com.google.firebase:firebase-analytics:20.1.2' //Libreria para saber cuantos usuarios esta usando nuestra app
     testImplementation 'junit:junit:4.13.2'
+    implementation 'com.google.firebase:firebase-auth:21.0.3' // Libreria Auth
+    implementation 'com.google.firebase:firebase-database:20.0.4' // bd firebase
     androidTestImplementation 'androidx.test.ext:junit:1.1.3'
     androidTestImplementation 'androidx.test.espresso:espresso-core:3.4.0'
-    implementation 'com.airbnb.android:lottie:3.0.1' //dependencia para la img de carga
 }
 //Librerias de firebase
 apply plugin: 'com.android.application'
