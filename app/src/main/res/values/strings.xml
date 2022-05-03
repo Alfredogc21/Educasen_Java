@@ -19,5 +19,6 @@
     <string name="IniciarSesion">Iniciar Sesion</string>
     <string name="NoTengoCuenta">No tengo una cuenta</string>
 
-
+    <!-- Textos para el activity menu principal -->
+    <string name="CerrarSesion">Salir</string>
 </resources>
