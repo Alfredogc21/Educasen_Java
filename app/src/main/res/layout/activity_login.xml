@@ -43,8 +43,8 @@
             android:layout_height="wrap_content"
             android:layout_marginTop="10dp">
             <EditText
-                android:id="@+id/CorreoEt"
-                android:hint="@string/CorreoEt"
+                android:id="@+id/CorreoLogin"
+                android:hint="@string/CorreoLogin"
                 android:inputType="textEmailAddress"
                 android:fontFamily="@font/robotoregular"
                 android:padding="20dp"
@@ -63,8 +63,8 @@
             app:passwordToggleEnabled="true"
             app:hintEnabled="false">
             <EditText
-                android:id="@+id/ContrasenaEt"
-                android:hint="@string/ContrasenaEt"
+                android:id="@+id/PassLogin"
+                android:hint="@string/PassLogin"
                 android:inputType="textPassword"
                 android:fontFamily="@font/robotoregular"
                 android:padding="20dp"
@@ -76,8 +76,8 @@
         </com.google.android.material.textfield.TextInputLayout>
 
         <Button
-            android:id="@+id/RegistrarUsuario"
-            android:text="@string/Ingresar"
+            android:id="@+id/Btn_Login"
+            android:text="@string/Btn_Login"
             android:layout_marginTop="15dp"
             android:fontFamily="@font/robotoregular"
             android:textSize="18sp"
@@ -88,7 +88,7 @@
         </Button>
 
         <TextView
-            android:id="@+id/TengoUnaCuentaTXT"
+            android:id="@+id/UsuarioNuevoTXT"
             android:layout_width="wrap_content"
             android:layout_height="match_parent"
             android:layout_marginTop="15dp"
@@ -97,7 +97,7 @@
             android:textSize="15sp"
             android:layout_gravity="center"
             android:textStyle="bold"
-            android:text="@string/NoTengoCuenta">
+            android:text="@string/UsuarioNuevoTXT">
         </TextView>
 
     </androidx.appcompat.widget.LinearLayoutCompat>

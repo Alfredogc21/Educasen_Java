@@ -17,7 +17,10 @@
     <!-- Textos para el activity login -->
     <string name="Ingresar">Ingresar</string>
     <string name="IniciarSesion">Iniciar Sesion</string>
-    <string name="NoTengoCuenta">No tengo una cuenta</string>
+    <string name="CorreoLogin">Correo</string>
+    <string name="PassLogin">Contraseña</string>
+    <string name="Btn_Login">Ingresar</string>
+    <string name="UsuarioNuevoTXT">¿No tienes una cuenta? Registrate</string>
 
     <!-- Textos para el activity menu principal -->
     <string name="CerrarSesion">Salir</string>
